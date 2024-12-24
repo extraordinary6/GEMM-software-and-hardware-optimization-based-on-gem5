@@ -15,6 +15,8 @@
 
 ## Baseline 硬件架构
 
-本实验的 **baseline** 是如下图所示基于X86的硬件架构，GEMM 采用多重循环的简单实现。其中，l1 dcache的大小设为4kB，l2 cache的大小设为16kB。
+本实验的 **baseline** 是如下图所示基于X86的硬件架构，GEMM 采用多重循环的简单实现。
+
+其中，CPU为基于顺序执行的X86TimingSimpleCPU，l1 dcache的大小设为4kB，l2 cache的大小设为16kB。
 ![image](https://github.com/user-attachments/assets/9069fb79-53e0-4020-8355-898450be8177)
 
