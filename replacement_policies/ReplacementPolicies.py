@@ -191,3 +191,9 @@ class HawkeyeRP(BaseReplacementPolicy):
     type = 'HawkeyeRP'
     cxx_class = 'gem5::replacement_policy::Hawkeye'
     cxx_header = "mem/cache/replacement_policies/hawkeye_rp.hh"
+
+class GenRP(BaseReplacementPolicy):
+    type = 'GenRP'
+    cxx_class = 'gem5::replacement_policy::GenRP'
+    cxx_header = "mem/cache/replacement_policies/gen_rp.hh"
+    
